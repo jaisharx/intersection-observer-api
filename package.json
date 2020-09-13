@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "parcel src/index.pug",
-    "build": "parcel build src/index.pug",
+    "build": "parcel build src/index.pug --public-url .",
     "clean": "rmdir /S /Q .cache dist"
   },
   "repository": {
