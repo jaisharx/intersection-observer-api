@@ -10,14 +10,16 @@ html(lang="en")
     body
     
     section.header
-        h1 Scroll to see animation.
+        h1 Scroll to see animation
         img(src="show.svg", alt="show more")
 
+    -   const dogImg = "https://images.dog.ceo/breeds/retriever-flatcoated/n02099267_3611.jpg";
+    -   const squigglyImg = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/2621168/squiggly.svg";
     section.content
         .left
-            img.dog.fadeIn#dog(src="https://images.dog.ceo/breeds/retriever-flatcoated/n02099267_3611.jpg", alt="dog image", data-delay="0s")
+            img(src=dogImg, alt="dog image", data-delay="0s", class="dog fadeIn" id="dog")
             p.fadeIn(data-delay=".5s") Aren't Dogs the best?
-            img.squig.fadeIn(src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2621168/squiggly.svg", alt="squiggly image", data-delay=".7s")
+            img(src=squigglyImg, alt="squiggly image", data-delay=".7s" class="squig fadeIn")
 
         .right
             div.fadeIn(data-delay="1s")
