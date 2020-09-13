@@ -10,16 +10,17 @@ html(lang="en")
     body
     
     section.header
-        h1 Scroll to view magic!
+        h1 Scroll to see animation.
+        img(src="show.svg", alt="show more")
 
     section.content
         .left
-            img.dog#dog(src="https://images.dog.ceo/breeds/retriever-flatcoated/n02099267_3611.jpg", alt="dog image")
-            p Aren't Dogs the best?
-            img.squig(src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2621168/squiggly.svg", alt="squiggly image")
+            img.dog.fadeIn#dog(src="https://images.dog.ceo/breeds/retriever-flatcoated/n02099267_3611.jpg", alt="dog image", data-delay="0s")
+            p.fadeIn(data-delay=".5s") Aren't Dogs the best?
+            img.squig.fadeIn(src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2621168/squiggly.svg", alt="squiggly image", data-delay=".7s")
 
         .right
-            div
+            div.fadeIn(data-delay="1s")
                 h2 Get a dog
                 p
                     | One reason why dogs are popular is that they train easier compared to cats.
