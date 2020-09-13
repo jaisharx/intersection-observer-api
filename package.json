@@ -3,7 +3,9 @@
   "description": "intersection observer api",
   "version": "1.0.0",
   "scripts": {
-    "start": ""
+    "start": "parcel src/index.pug",
+    "build": "parcel build src/index.pug",
+    "clean": "rmdir /S /Q .cache dist"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,7 @@
   },
   "homepage": "https://github.com/jaisharx/intersection-observer-api#readme",
   "devDependencies": {
-    "parcel": "^1.12.4"
+    "parcel": "^1.12.4",
+    "pug": "^3.0.0"
   }
 }
