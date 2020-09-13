@@ -1,0 +1,22 @@
+{
+  "name": "intersection-observer-api",
+  "description": "intersection observer api",
+  "version": "1.0.0",
+  "scripts": {
+    "start": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaisharx/intersection-observer-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaisharx/intersection-observer-api/issues"
+  },
+  "homepage": "https://github.com/jaisharx/intersection-observer-api#readme",
+  "devDependencies": {
+    "parcel": "^1.12.4"
+  }
+}
