@@ -20,6 +20,7 @@
   "homepage": "https://github.com/jaisharx/intersection-observer-api#readme",
   "devDependencies": {
     "parcel": "^1.12.4",
+    "parcel-plugin-nuke-dist": "^1.0.1",
     "pug": "^3.0.0",
     "sass": "^1.26.10"
   }
